@@ -1,6 +1,12 @@
 # Disease-Monitor
 A DiseaseMonitor module that allows us to record the cases of multiple diseases and export numerous statistics about them.
-A DiseaseMonitor.o file is also included, so that the module can be used. The .c files for the ADTs used in the DiseaseMonitor are not included, so a new compile is not possible.
+A DiseaseMonitorLib.a file is also included, so that a static library with the modules used in the implementation can be used.
+A test file with a simple unit test for the implementation is included under the /tests directory.
+
+Compile and run with:
+```
+make run
+```
 
 ### Based on the following exercise from k08.chatzi.org (in Greek):
 
